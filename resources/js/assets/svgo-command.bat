@@ -1,0 +1,1 @@
+npx @svgr/cli ./svg/ --out-dir ./svgjs

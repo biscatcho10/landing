@@ -1,0 +1,179 @@
+@media all and (max-width: 1310px) {
+  html {
+    overflow: hidden;
+  }
+
+  .page_background {
+    display: none;
+  }
+
+  .box {
+    width: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    transform: none;
+    border-radius: 0;
+    height: 100vh;
+  }
+  .box .background_box {
+    height: calc(100vh + 5px);
+    top: 0;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    min-width: 1250px;
+  }
+  .box .background_box svg {
+    height: 100%;
+    position: absolute;
+    right: 0;
+  }
+  .box .content {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+
+  .shadow {
+    display: none;
+  }
+
+  .overlap {
+    display: none;
+  }
+
+  .copyright {
+    z-index: 5;
+    bottom: 48px;
+  }
+}
+@media all and (max-width: 971px) {
+  .box .paragraph {
+    margin-bottom: 20px;
+  }
+  .box .social {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+  .box .social a:last-child {
+    margin-right: 0;
+  }
+  .box .social .icon path {
+    color: #2C2355;
+  }
+  .box .background_box svg {
+    height: 100%;
+    position: absolute;
+    right: 0;
+  }
+
+  .copyright {
+    bottom: 18px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media all and (max-width: 660px) {
+  .box .content {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media all and (max-width: 480px) {
+  .box {
+    width: 100%;
+  }
+  .box .background_box {
+    display: none;
+  }
+  .box .logo_container {
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .box .logo_container .logo {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .box .logo_container .box_of_logo {
+    display: none;
+  }
+  .box .content {
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 100%;
+    padding: 0 40px;
+  }
+  .box .content .form {
+    width: 100%;
+  }
+  .box .content .form .input_text label {
+    font-size: 10px;
+    top: 22px;
+  }
+  .box .content .form .input_text label.active {
+    color: #bd7583;
+    font-size: 8px;
+    top: 5px;
+  }
+  .box .content .form .form-control {
+    height: 40px;
+    padding: 15px 0 0px 5px;
+  }
+  .box .content .form .select__placeholder {
+    font-size: 10px;
+  }
+  .box .content .paragraph {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .box .content .paragraph p {
+    font-size: 9px;
+  }
+  .box .social {
+    right: 40px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    bottom: 60px;
+  }
+  .box .social .icon path {
+    color: #2C2355;
+  }
+  .box .social .icon:hover path {
+    color: #2c2355ba;
+  }
+  .box .social .icon .fa-lg {
+    font-size: 1em;
+  }
+  .box .form .button_container button.button {
+    margin-top: 17px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}
+@media all and (max-width: 390px) {
+  .social {
+    bottom: 65px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

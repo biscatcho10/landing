@@ -1,0 +1,218 @@
+@import "responsive/res768-1023", "responsive/res480-768", "responsive/res0-479";
+@import "variables";
+
+@media all and (max-width: 1310px) {
+    html {
+        overflow: hidden;
+    }
+    .page_background {
+        display: none;
+    }
+    .box {
+        width: 100%;
+        background: transparent;
+        top: 0;
+        left: 0;
+        transform: none;
+        border-radius: 0;
+        height: 100vh;
+
+        .background_box {
+            height: calc(100vh + 5px);
+            top: 0;
+            bottom: auto;
+            // left: auto;
+            left: 0;
+            width: 100%;
+            min-width: 1250px;
+            svg {
+                height: 100%;
+                position: absolute;
+                right: 0;
+            }
+        }
+
+        .content {
+            display: inline-block;
+            position: absolute;
+            top: 45%;
+            transform: translateY(-50%);
+        }
+    }
+
+    .shadow {
+        display: none;
+    }
+    .overlap {
+        display: none;
+    }
+    .copyright {
+        z-index: 5;
+        bottom: 48px;
+    }
+}
+
+@media all and (max-width: 971px) {
+    .box {
+        .paragraph {
+            margin-bottom: 20px;
+        }
+        .social {
+            left: 50%;
+            right: auto;
+            transform: translateX(-50%);
+
+            a {
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            .icon path {
+                color: #2C2355;
+            }
+        }
+        .background_box {
+            svg {
+                height: 100%;
+                position: absolute;
+                right: 0;
+            }
+        }
+
+    }
+    .copyright {
+        bottom: 18px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 660px) {
+    .box {
+        .content {
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 780px) {
+//   .box .content {
+//       top: 53%;
+//   }
+//   .box .paragraph {
+//       margin-bottom: 5px;
+//   }
+//   .form .button_container button.button {
+//       margin-top: 5px;
+//   }
+}
+
+@media all and (max-width: 480px) {
+    .box {
+        width: 100%;
+
+        .background_box {
+            display: none;
+        }
+
+        .logo_container {
+            left: 50%;
+            top: 40px;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            .logo {
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+            }
+
+            .box_of_logo {
+                display: none;
+            }
+        }
+
+        .content {
+            position: absolute;
+            margin: auto;
+            display: block;
+            //transform: none;
+            width: 100%;
+            padding: 0 40px;
+
+            .form {
+                width: 100%;
+                .input_text label {
+                    font-size: 10px;
+                    top: 22px;
+                }
+                .input_text label.active {
+                    color: #bd7583;
+                    font-size: 8px;
+                    top: 5px;
+                }
+                .form-control {
+                    height: 40px;
+                    padding: 15px 0 0px 5px;
+                }
+                .select__placeholder  {
+                    font-size: 10px;
+                }
+            }
+
+            .paragraph {
+                width: 100%;
+                margin-bottom: 0;
+                p {
+                    font-size: 9px;
+                }
+            }
+        }
+
+        .social {
+            right: 40px;
+            width: 100%;
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            bottom: 60px;
+
+            .icon {
+                path {
+                    color: $main_color;
+                }
+                &:hover {
+                    path {
+                        color: #2c2355ba;
+                    }
+                }
+                .fa-lg {
+                    font-size: 1em;
+                }
+            }
+        }
+        .form .button_container button.button {
+            margin-top: 17px;
+            width: 150px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+    .copyright {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .social {
+        bottom: 65px !important;
+    }
+}

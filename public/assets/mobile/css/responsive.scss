@@ -1,0 +1,251 @@
+@media all and (min-width: 1371px) {
+  .container_ {
+    height: 90%;
+    max-height: 820px;
+  }
+  #sec__form .logo {
+    right: 55px;
+    top: 45px;
+  }
+  .content .pragh p {
+    margin-bottom: 45px;
+    font-size: 0.95rem;
+    line-height: 20px;
+  }
+  .content form .group-input {
+    height: 45px;
+  }
+  .content form .group-input input {
+    height: 40px;
+  }
+  .content .app__btn .SEND_btn {
+    margin-top: 45px;
+    height: 50px;
+    font-size: 17px;
+    width: 180px;
+  }
+  .social {
+    position: absolute;
+    left: 0;
+    padding-right: 50px;
+    bottom: 5%;
+    margin-top: 0;
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
+@media all and (max-width: 1371px) {
+  .app_content .background_page {
+    background-size: cover !important; 
+  }
+}
+@media all and (min-width: 1201px) {
+  .container_ {
+    height: 90%;
+    max-height: 820px;
+    max-width: 1400px;
+  }
+  .app_content {
+    padding-left: 100px;
+  }
+  .content p {
+    margin-bottom: 40px;
+  }
+  .content .input-text:focus + .label-helper,
+  .content input:not(:focus):valid ~ .label-helper {
+    bottom: 25px;
+    font-size: 0.85rem;
+  }
+  .content form .group-input input {
+    font-size: 1rem;
+  }
+  .content form .group-input label.placeholder {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 1200px) {
+  .content form .group-input label.placeholder {
+    font-size: 0.95rem;
+  }
+  .content .pragh p {
+    font-size: 0.75rem;
+    line-height: 16px;
+  }
+  .content .app__btn .SEND_btn {
+    margin-top: 17px;
+    width: 150px;
+    height: 37px;
+  }
+  // .big_svg {
+  //   min-height: 520px;
+  // }
+}
+@media all and (min-width: 971px) and (max-width: 1200px) {
+  #sec__form .logo {
+    right: 50px;
+    top: 60px;
+  }
+  .big_svg {
+    left: -216px;
+  }
+}
+@media all and (max-width: 970px) {
+  html {
+    font-size: 15px;
+  }
+  .container_ {
+    height: 100%;
+    width: 100%;
+    max-height: initial;
+  }
+  .app_content {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    // background-color: #169fc8;
+  }
+  .big_svg {
+    background-size: cover;
+    min-height: 920px;
+    width: 1140px;
+    min-height: 1152px;
+    background-position: right;
+  }
+  .mySslect {
+    width: 170px;
+    left: 765px;
+    top: 691px;
+}
+.mySslect h4 {
+  height: 23px;
+  font-size: 9px;
+}
+.myclock {
+  left: 869px;
+  top: 833px;
+}
+.clock .hand.hour {
+  width: 4px;
+}
+.clock {
+  width: 135px;
+  height: 135px;
+}
+  #sec__form .logo {
+    right: 60px;
+    top: 75px;
+  }
+  .big_svg .temperature {
+    width: 250px;
+    height: 130px;
+    left: 868px;
+    top: 324px;
+  } 
+  .big_svg .temperature .weather-container .temperature-value p {
+    font-size: 35.5px;
+  }
+  .big_svg .temperature .weather-container .location p {
+    font-size: 11px;
+  }
+  .big_svg .temperature .weather-container .temperature-description p {
+    font-size: 9px;
+  }
+  #mainwrap {
+    height: 111px;
+    width: 207px;
+    left: 662px;
+    top: 479px;
+    transform: rotateZ(335deg);
+    -webkit-transform: rotateZ(335deg);
+    -moz-transform: rotateZ(335deg);
+    -ms-transform: rotateZ(335deg);
+    -o-transform: rotateZ(335deg);
+
+  }
+  .playAudio {
+    padding-left: 3px;
+    padding-right: 2px;
+  }
+  .myIcon {
+    background-size: 40%;
+  }
+  .iconPlay {
+    background-size: 46%;
+}
+  .social {
+    position: absolute;
+    left: 0;
+    justify-content: center;
+  }
+  .copyright_one {
+    display: none;
+  }
+  .copyright_two {
+    display: block;
+    margin-right: 3rem;
+    p {
+      font-size: 0.5rem;
+      margin-bottom: 0;
+      color: #fff;
+    }
+  }
+}
+@media all and (min-width: 570px) and (max-width: 971px) {
+  .content {
+    width: 45%;
+    margin-left: 54px;
+    min-width: 370px;
+  }
+}
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 570px) {
+  html {
+    font-size: 13px;
+  }
+  .app_content {
+    align-items: center;
+  }
+  .content {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 70px;
+  }
+  #sec__form .logo {
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .social {
+    left: 0;
+    position: relative;
+    flex-direction: column;
+    margin-top: 50px;
+    .copyright_two {
+      order: 2;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  }
+}
+@media all and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .app_content {
+    padding: 10px;
+  }
+  .content {
+    max-width: 340px;
+  }
+}

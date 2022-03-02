@@ -1,0 +1,140 @@
+@media all and (max-width: 1200px) {
+  .app_content {
+      img {
+        height: 87% !important;
+      }
+  }
+}
+@media all and (min-width: 970px) {
+  #sec__form .earth {
+    left: -246px;
+    bottom: -340px;
+  }
+}
+@media all and (max-width: 971px) {
+  html {
+    font-size: 15px;
+  }
+  .container_ {
+    height: 100%;
+    width: 100%;
+    max-height: initial;
+  }
+  .container_ .background_svg {
+    background-size: cover;
+    height: 110%;
+    width: 110%;
+  }
+  .app_background_svg,
+  .container_ .background_svg .background_svg {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  #sec__form .svg_sec_top {
+    display: none;
+  }
+  #sec__form .shak {
+    top: 37%;
+    left: 65%;
+  }
+  #sec__form .logo {
+    right: 60px;
+    top: 50px;
+  }
+  .app_content .svg_top_content {
+    top: 20%;
+    left: 60%;
+  }
+  .copyright_one {
+    display: none;
+  }
+  .copyright_two {
+    display: block;
+    margin-right: 3rem;
+    p {
+      font-size: 0.5rem;
+      margin-bottom: 0;
+    }
+  }
+  .social {
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+  }
+  #sec__form .earth {
+    left: -238px;
+    bottom: -278px;
+}
+}
+@media all and (min-width: 571px) and (max-width: 971px) {
+  .content {
+    width: 45%;
+    margin-left: 54px;
+}
+}
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  #sec__form .shak,
+  .app_content .svg_top_content {
+    left: 70%;
+  }  #sec__form .earth {
+    left: -230px;
+    bottom: -290px;
+}
+  
+}
+@media all and (max-width: 570px) {
+  html {
+    font-size: 13px;
+  }
+  .app_content {
+    align-items: center;
+  }
+  #sec__form .shak,
+  .app_content .svg_top_content {
+    display: none;
+  }
+  .content {
+    width: 100%;
+      max-width: 380px;
+    margin-top: 70px;
+  }
+  #sec__form .logo {
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .social {
+    left: 0;
+    position: relative;
+    flex-direction: column;
+    margin-top: 50px;
+    .copyright_two {
+      order: 2;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  }
+  
+}
+
+@media all and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .app_content {
+    padding: 10px;
+  }
+  .content{
+    max-width: 340px;
+  }
+}
