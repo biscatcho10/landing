@@ -80,7 +80,13 @@ class LandingContactController extends Controller
             ];
             composeEmail($details['to'], $details['subject'], $details['template']);
         }
-        return response()->json(["success" => true]);
+
+        if ($landing->redirect) {
+            return response()->json(["success" => $landing->redirect_url]);
+        } else {
+            return response()->json(["success" => true]);
+        }
+
     }
 
 }

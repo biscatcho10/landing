@@ -31,6 +31,8 @@ class CreateLandingPageDataTable extends Migration
             $table->longText("email_template")->nullable();
             $table->unsignedBigInteger("replay_email_id")->nullable();
             $table->string("type", 100);
+            $table->boolean("redirect")->default(false);
+            $table->string("redirect_url")->nullable();
 //            $table->foreign("replay_email_id")->references("id")->on("emails")->onUpdate("set null")->onDelete("set null");
             $table->timestamps();
         });

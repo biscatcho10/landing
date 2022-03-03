@@ -157,6 +157,8 @@ function Form(props) {
                 overlay.classList.add("active")
                 window.ani.goToAndStop(1, true)
                 window.ani.play()
+            }else{
+                window.location.href = data.success;
             }
         })
     }

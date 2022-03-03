@@ -68,7 +68,15 @@ class LandingPageDataController extends Controller
             "email_subject",
             "email_template",
             "seo_keywords",
+            "redirect_url",
         ]);
+
+        $input['redirect'] = $request->redirect == "on" ? true : false;
+
+        if ($input['redirect'] == false) {
+            $input['redirect_url'] = null;
+        }
+
         checkType($type);
         LandingPageData::where(['type' => $type])->update($input);
         return redirect()->route('landing_page_data.index', ['type' => $type])->with(['success' => __("messages.update", ["operator" => ucfirst($type) . " Settings"])]);

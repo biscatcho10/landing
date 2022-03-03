@@ -43,7 +43,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth
 //    return view("welcome");
 //})->where("reactRoutes", "^((?|api).)*$");
 
-Route::get('/action', [
+Route::get('/', [
     'uses' => 'ReactController@show',
     'as' => 'react',
     'where' => ['path' => '.*']

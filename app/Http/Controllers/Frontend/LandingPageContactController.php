@@ -48,7 +48,12 @@ class LandingPageContactController extends Controller
             ];
             composeEmail($details['to'], $details['subject'], $details['template']);
         }
-        return redirect()->route('get.thanks', $inputs['type']);
+
+        if ($landing->redirect) {
+            return redirect($landing->redirect_url);
+        } else {
+            return redirect()->route('get.thanks', $inputs['type']);
+        }
     }
 
 }

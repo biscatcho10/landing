@@ -14,4 +14,13 @@ class LandingPageData extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+      /**
+     * The attributes that should be cast to native types.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'redirect' => 'boolean',
+    ];
 }
